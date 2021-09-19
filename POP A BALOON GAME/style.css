@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.container{
+
+    width: 500px;
+    height: 600px;
+    border: red 1px;
+}
+.innerContainer{background: #318500;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #6b1500;
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

@@ -1,0 +1,78 @@
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+#welCome{
+
+    text-align: center;
+    color: rgb(88, 0, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#welCome2{
+
+    text-align: center;
+    color: rgb(230, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.blue {
+    color:#3f7abe;
+}
+
+h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #08a3d9;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000380;
+}
+
+#balloon-gallery div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin: 2.5px 5 px 2.5px 0px;
+}
+
+.yellow{
+    background: #ffce00;
+    color: #ffce00;
+}
+
+
+.red{
+    background:#ff3300;
+    color: #ff3300;
+}
+
+.bluee {
+    background:blue;
+    color: blue;
+}
+.pink {
+    background:pink;
+    color: pink;
+}
+.green {
+    background:green;
+    color: green;
+}
+
+#yay-no-balloons {
+    display:none;
+    color:#ff3300;
+    font-size:100px;
+}

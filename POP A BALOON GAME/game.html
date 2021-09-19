@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDwV0NFl0mdcJ8cJ-_1SQOzpXAKoU-SbCI",
+            authDomain: "pop-a-baloon.firebaseapp.com",
+            projectId: "pop-a-baloon",
+            storageBucket: "pop-a-baloon.appspot.com",
+            messagingSenderId: "306694776319",
+            appId: "1:306694776319:web:49b36e76ca86572202f3ca",
+            measurementId: "G-BZNBK91JVJ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const firestore = firebase.firestore();
+    </script>
+
+    <title>Pop A Baloon </title>
+</head>
+
+<body onload="gameDashboard()">
+    <h1 id="welCome">Welcome to the game, Mr <span id="userName"></span></h1>
+    <h2 class="btn btn-primary ">Round <span id="roundNumber"></span></h2>
+    <h2 class="btn btn-danger">Life <span id="life"></span></h2>
+
+    <div class="wrapper">
+        <h1 id="welCome2">Pop the balloons by moving</br>your mouse over them</h1>
+        <h2>Click on Blue Balloons to clear this round</h2>
+        <div id="yay-no-balloons"><span class="blue">Wow!</span> All balloons popped!</div>
+        <div id="balloon-gallery">
+            <div class="balloon bluee"></div>
+            <div class="balloon green"></div>
+            <div class="balloon red"></div>
+            <div class="balloon pink"></div>
+            <div class="balloon yellow"></div>
+            <div class="balloon bluee"></div>
+            <div class="balloon green"></div>
+            <div class="balloon red"></div>
+            <div class="balloon pink"></div>
+            <div class="balloon yellow"></div>
+            <div class="balloon bluee"></div>
+            <div class="balloon green"></div>
+            <div class="balloon red"></div>
+            <div class="balloon pink"></div>
+            <div class="balloon yellow"></div>
+            
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
